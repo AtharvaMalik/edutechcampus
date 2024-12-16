@@ -22,6 +22,10 @@
 
 body {
   color: var(--foreground);
-  background-image: linear-gradient(#f3f4f6, #f3f4f6);
-  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(#f05454, #30475e);
+  font-family: "Poppins", sans-serif;
+}
+
+.font-lovers {
+  font-family: "Lovers Quarrel", cursive;
 }
