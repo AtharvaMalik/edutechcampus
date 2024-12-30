@@ -1,14 +1,16 @@
 import React from 'react';
+import Image from 'next/image';
 
 const HeroContent: React.FC = () => {
     return (
         <div className="HeroContent xl:-mt-40">
             <div className="flex flex-col items-center justify-center">
                 <div className="relative flex justify-center">
-                    <img 
-                        src="Speak.png" 
+                    <Image
+                        src="/Speak.png" 
                         alt="Artboard" 
                         className="xl:mb-0 -z-1 absolute speak"
+                        layout="fill"
                     />
                     <div className="HeroHeading text-center">
                         <h1 className="text-7xl font-bold mt-7 xl:mt-12">Edutech Campus</h1>
