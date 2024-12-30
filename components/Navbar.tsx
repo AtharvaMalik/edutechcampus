@@ -4,7 +4,7 @@ const Navbar = () => {
     
   return (
 
-    <div className=" flex items-center justify-center xl:mt-5">
+    <div className="flex items-center justify-center xl:mt-5">
       <div className="xl:w-[85%] bg-white bg-opacity-25 rounded-xl shadow-lg flex items-center justify-between px-6 py-2">
         {/* Left Side */}
         <div className="font-lovers text-white text-xl xl:text-4xl ">

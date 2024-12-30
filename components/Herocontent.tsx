@@ -6,7 +6,7 @@ const HeroContent: React.FC = () => {
             <div className="flex flex-col items-center justify-center">
                 <div className="relative flex justify-center">
                     <img 
-                        src="/speak.png" 
+                        src="./speak.png" 
                         alt="Artboard" 
                         className="xl:mb-0 -z-1 absolute speak"
                     />
