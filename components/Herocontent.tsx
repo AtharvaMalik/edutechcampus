@@ -6,12 +6,12 @@ const HeroContent: React.FC = () => {
             <div className="flex flex-col items-center justify-center">
                 <div className="relative flex justify-center">
                     <img 
-                        src="public\Speak.png" 
+                        src="Speak.png" 
                         alt="Artboard" 
                         className="xl:mb-0 -z-1 absolute speak"
                     />
                     <div className="HeroHeading text-center">
-                        <h1 style={{ fontSize: "5rem", fontWeight: "bold", marginTop: "0" }}>Edutech Campus</h1>
+                        <h1 style={{ fontSize: "5rem", fontWeight: "bold", marginTop: "0" }}>Edutech-Campus</h1>
                     </div>
                 </div>
                 <h3 className="SubHead text-center p-2">Your Trusted Computer Service Center in Jagadhri</h3>
