@@ -11,7 +11,7 @@ const HeroContent: React.FC = () => {
                         className="xl:mb-0 -z-1 absolute speak"
                     />
                     <div className="HeroHeading text-center">
-                        <h1 style={{ fontSize: "5rem", fontWeight: "bold", marginTop: "0" }}>Edutech-Campus</h1>
+                        <h1 style={{ fontSize: "5rem", fontWeight: "bold", marginTop: "0" }}>Edutech Campus</h1>
                     </div>
                 </div>
                 <h3 className="SubHead text-center p-2">Your Trusted Computer Service Center in Jagadhri</h3>
