@@ -28,6 +28,9 @@ const About: NextPage = () => {
                         At Edutech Campus, we also offer comprehensive computer education programs. From basic computer literacy and typing skills to advanced courses in coding, including Python, Java, HTML, CSS, and web development, we are dedicated to helping you master the digital world.
                     </p>
                     <p className="text-white text-lg leading-relaxed mb-4">
+                        We also provide training in video editing and graphic designing. Our courses are designed to help you unleash your creativity and develop professional skills in tools and software used widely in the industry.
+                    </p>
+                    <p className="text-white text-lg leading-relaxed mb-4">
                         In addition to our educational services, we sell high-quality refurbished laptops. These affordable options are perfect for students, professionals, and anyone looking for reliable computing solutions at a fraction of the cost of new devices.
                     </p>
                     <p className="text-white text-lg leading-relaxed mb-4">
