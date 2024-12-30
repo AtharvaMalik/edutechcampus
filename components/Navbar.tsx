@@ -11,9 +11,9 @@ const Navbar = () => {
 
         {/* Right Side */}
         <div className="flex flex-row xl:flex-row space-x-3 xl:space-y-0 xl:space-x-24 text-white font-medium font-Helvetica">
-          <a href="#" className="hover:text-red-200 transition">Home</a>
+          <a href=".." className="hover:text-red-200 transition">Home</a>
           <a href="#" className="hover:text-red-200 transition">Services</a>
-          <a href="#" className="hover:text-red-200 transition">About Us</a>
+          <a href="/about" className="hover:text-red-200 transition">About Us</a>
           <a href="#" className="hover:text-red-200 transition">Contact</a>
         </div>
       </div>
