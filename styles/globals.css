@@ -53,8 +53,8 @@ body {
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20%; /* 30.237px */
-  margin-top: 0px;
+  line-height: 100%; /* 30.237px */
+  
 }
 .HeroHeading {
   margin-top: 71%;
