@@ -10,10 +10,12 @@ const HeroContent: React.FC = () => {
                         src="/Speak.png" 
                         alt="Artboard" 
                         className="xl:mb-0 -z-1 absolute speak"
-                        layout="fill"
+                        width={500}
+                        height={500}
+                        layout="none"
                     />
                     <div className="HeroHeading text-center">
-                        <h1 className="text-7xl font-bold mt-7 xl:mt-12">Edutech Campus</h1>
+                        <h1 className="text-7xl font-bold mt-7 xl:-mt-12">Edutech Campus</h1>
                     </div>
                 </div>
                 <h3 className="SubHead text-center p-10xl :mt-3 xl:p-1">Your Trusted Computer Service Center in Jagadhri</h3>
