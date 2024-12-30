@@ -23,9 +23,62 @@
 body {
   color: var(--foreground);
   background-image: linear-gradient(#f05454, #30475e);
+  background-attachment: fixed;
   font-family: "Poppins", sans-serif;
 }
 
 .font-lovers {
   font-family: "Lovers Quarrel", cursive;
+}
+
+.SubHead {
+  text-align: center;
+  text-shadow: 0px 4px 25px rgba(255, 255, 255, 0.25);
+  font-family: "Libre Franklin";
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 80%; /* 60.5px */
+  background: linear-gradient(0deg, #fff 50.82%, #999 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.literacy {
+  color: #e5e5e5;
+  text-align: center;
+  text-shadow: 0px 4px 25px rgba(255, 255, 255, 0.25);
+  font-family: "Libre Franklin";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20%; /* 30.237px */
+  margin-top: 0px;
+}
+.HeroHeading {
+  margin-top: 71%;
+  left: auto;
+  right: auto;
+  color: #fff;
+  text-shadow: 0px 4px 100px rgba(255, 255, 255, 0.25),
+    0px 4px 50px rgba(255, 255, 255, 0.25),
+    0px 4px 25px rgba(255, 255, 255, 0.25),
+    0px 4px 10px rgba(255, 255, 255, 0.25);
+  font-family: Poppins;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
+  z-index: 1;
+}
+
+.speak {
+  z-index: -1;
+  opacity: 0.72;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -20px; /* Adjust this value as needed */
+  /* position: absolute; */
 }
