@@ -11,7 +11,7 @@ const About: NextPage = () => {
                 <title>About Edutech Campus</title>
                 <meta name="description" content="Learn more about Edutech Campus, our mission, and our services." />
             </Head>
-            <h1 className="Glow mt-10 xl:mt-9 xl:mb-0 text-white text-center text-6xl font-bold">About Edutech Campus</h1>
+            <h1 className="Glow mt-10 xl:mt-9 xl:mb-0 text-white text-center text-4xl xl:text-6xl font-bold"><span>About</span> <span>Edutech&nbsp;Campus</span></h1>
             <main className="min-h-screen py-5 px-4">
                 <section className="xl:mt-0 max-w-5xl mx-auto bg-gray-200 bg-opacity-20 p-6 shadow-md rounded-lg">
                     
