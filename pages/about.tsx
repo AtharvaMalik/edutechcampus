@@ -11,12 +11,12 @@ const About: NextPage = () => {
                 <title>About Edutech Campus</title>
                 <meta name="description" content="Learn more about Edutech Campus, our mission, and our services." />
             </Head>
-            <h1 className="Glow xl:mt-9 xl:mb-0 text-white text-center text-6xl font-bold">About Edutech Campus</h1>
+            <h1 className="Glow mt-10 xl:mt-9 xl:mb-0 text-white text-center text-6xl font-bold">About Edutech Campus</h1>
             <main className="min-h-screen py-5 px-4">
                 <section className="xl:mt-0 max-w-5xl mx-auto bg-gray-200 bg-opacity-20 p-6 shadow-md rounded-lg">
                     
                     <p className="text-white text-lg leading-relaxed mb-4">
-                        Welcome to Edutech Campus, your trusted Common Service Center (CSC) and technology solutions provider. Owned and managed by Digant Malik, we are committed to bridging the digital divide by offering a wide range of services tailored to meet your needs.
+                        Welcome to <strong>Edutech Campus</strong>, your trusted Common Service Center (<strong>CSC</strong>) and technology solutions provider. Owned and managed by<strong> Digant Malik</strong>, we are committed to bridging the digital divide by offering a wide range of services tailored to meet your needs.
                     </p>
                     <p className="text-white text-lg leading-relaxed mb-4">
                         Located in Jagadhri, we operate from 10:00 AM to 9:00 PM, ensuring accessibility and convenience for our customers. Whether you need assistance with government services, digital payments, or educational resources, Edutech Campus is here to help.
