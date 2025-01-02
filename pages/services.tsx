@@ -42,11 +42,11 @@ const Services: NextPage = () => {
       <Navbar   />
       <main className="min-h-screen py-8 px-4">
         <section className="max-w-6xl mx-auto">
-          <h1 className="Glow mt-5 xl:mt-2 xl:mb-0 text-center text-3xl xl:text-6xl font-bold">सेवाएं</h1>
+            <h1 className="Glow mt-5 xl:mt-2 xl:mb-0 text-center text-3xl xl:text-6xl font-black">सेवाएं</h1>
           <div className="xl:mt-7 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service, index) => (
               <Link href="/contact" key={index} passHref>
-                <div className="service-box cursor-pointer bg-white bg-opacity-20 border p-6 shadow-md rounded-md hover:bg-blue-600 hover:text-white transition duration-300">
+                <div className="service-box font-bold cursor-pointer bg-white bg-opacity-20 border p-6 shadow-md rounded-md hover:bg-blue-600 hover:text-white transition duration-300">
                   {service}
                 </div>
               </Link>
