@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+// import Link from "next/link";
 import { TransitionLink } from "../lib/transitionLink";
 
 const Navbar = () => {
@@ -12,20 +12,29 @@ const Navbar = () => {
         </div>
 
         {/* Right Side */}
-        <div className="flex flex-row xl:flex-row space-x-3 xl:space-y-0 xl:space-x-24 text-white font-medium font-Helvetica hover:text-red-200 transition" >
+        <div className="flex flex-row xl:flex-row space-x-3 xl:space-y-0 xl:space-x-24 text-white font-medium font-Helvetica " >
           
-          <TransitionLink href=".." >
-            Home
-          </TransitionLink>
-          <TransitionLink href="/services" >
-            Services
-          </TransitionLink>
-          <TransitionLink href="/about" >
-            About Us
-          </TransitionLink>
-          <TransitionLink href="/contact" >
-            Contact
-          </TransitionLink>
+          <div className="hover:text-red-200 transition">
+            <TransitionLink href="..">
+              Home
+            </TransitionLink>
+          </div>
+          
+            <div className="hover:text-red-200 transition">
+            <TransitionLink href="/services">
+              Services
+            </TransitionLink>
+            </div>
+            <div className="hover:text-red-200 transition">
+            <TransitionLink href="/about" >
+              About Us
+            </TransitionLink>
+            </div>
+            <div className="hover:text-red-200 transition">
+            <TransitionLink href="/contact">
+              Contact
+            </TransitionLink>
+            </div>
         </div>
       </div>
     </div>
