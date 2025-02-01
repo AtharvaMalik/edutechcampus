@@ -34,7 +34,7 @@ const ParticlesBackground: React.FC = () => {
           },
           move: {
             enable: true,
-            speed: 5,
+            speed: 2,
           },
           number: {
             density: {
