@@ -4,7 +4,7 @@ import { TransitionLink } from "../lib/transitionLink";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-center mt-5 sm:mt-10 xl:mt-5">
+    <div className="flex items-center justify-center mt-5 sm:mt-10 xl:mt-5 z-15">
       <div className="mx-auto  xl:w-[85%] bg-white bg-opacity-25 rounded-xl shadow-lg flex flex-col xl:flex-row items-center justify-between px-6 py-2">
         {/* Left Side */}
         <div className="font-lovers text-white text-4xl xl:text-4xl mb-4 xl:mb-0">
@@ -19,7 +19,11 @@ const Navbar = () => {
               Home
             </TransitionLink>
           </div>
-          
+          <div>
+            <TransitionLink href="/gallery">
+              Gallery
+            </TransitionLink>
+          </div>
             <div className="hover:text-red-200 transition">
             <TransitionLink href="/services">
               Services

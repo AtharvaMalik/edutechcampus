@@ -2,6 +2,7 @@
 import Navbar from '@/components/Navbar';
 import { NextPage } from 'next';
 import Head from 'next/head';
+import ParticlesBackground from "@/components/ParticlesBackground";
 
 const Contact: NextPage = () => {
     return (
@@ -11,6 +12,7 @@ const Contact: NextPage = () => {
                 <meta name="description" content="Get in touch with Edutech Campus for any inquiries or support." />
             </Head>
             <Navbar/>
+            <ParticlesBackground/>
 
             <main className="min-h-screen py-8 px-4 text-white">
                 <h1 className="Glow mt-5 xl:mt-2 xl:mb-0 text-center text-3xl xl:text-6xl font-bold">Contact Us</h1>

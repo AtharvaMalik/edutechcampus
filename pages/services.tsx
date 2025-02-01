@@ -4,6 +4,8 @@ import { NextPage } from 'next';
 import Head from 'next/head';
 // import Link from 'next/link';
 import { TransitionLink } from "../lib/transitionLink";
+import ParticlesBackground from "@/components/ParticlesBackground";
+
 const services = [
   "आधार से पेमेंट",
   "पैसा निकालना",
@@ -39,6 +41,7 @@ const Services: NextPage = () => {
         <title>Edutech Campus - सेवाएं</title>
         <meta name="description" content="Edutech Campus द्वारा प्रदान की जाने वाली सेवाओं की सूची।" />
       </Head>
+      <ParticlesBackground/>
       <Navbar   />
       <main className="min-h-screen py-8 px-4">
         <section className="max-w-6xl mx-auto">

@@ -32,10 +32,10 @@ body {
 .page-transition {
   opacity: 0;
   /* background: tomato; */
-  transform: translateY(10px);
-  /* transform: translateY(100px); */
+  /* transform: translateY(10px); */
+  transform: translateY(100px);
 
-  filter: blur(10px);
+  filter: blur(100px);
 }
 
 .font-lovers {
