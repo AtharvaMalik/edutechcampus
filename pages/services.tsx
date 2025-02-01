@@ -29,7 +29,7 @@ const services = [
   "प्रापर्टी टैक्स व अन्य टैक्स की अदायगी",
   "छात्रवृति/एसएससी/यूपीएससी  के फार्म",
   "ई एस आई/वाहन/जी एस टी चालान की पेमंेट",
-//   "सिबिल/क्रेडिट स्कोर जांच",
+  //   "सिबिल/क्रेडिट स्कोर जांच",
   "लोन्स के आवेदन कार लोन, विद्यालक्ष्मी लोन, मुद्रा लोन, प्रापर्टी लोन, गोल्ड लोन",
   "सभी प्रकार की स्टेशनरी, फोटोकापी व अन्य सुविधाएं उपलब्ध हैं।"
 ];
@@ -41,11 +41,12 @@ const Services: NextPage = () => {
         <title>Edutech Campus - सेवाएं</title>
         <meta name="description" content="Edutech Campus द्वारा प्रदान की जाने वाली सेवाओं की सूची।" />
       </Head>
-      <ParticlesBackground/>
-      <Navbar   />
+      <div className='md:opacity-[15%] sm:opacity-20'>            <ParticlesBackground />
+      </div>
+      <Navbar />
       <main className="min-h-screen py-8 px-4">
         <section className="max-w-6xl mx-auto">
-            <h1 className="Glow mt-5 xl:mt-2 xl:mb-0 text-center text-3xl xl:text-6xl font-black">सेवाएं</h1>
+          <h1 className="Glow mt-5 xl:mt-2 xl:mb-0 text-center text-3xl xl:text-6xl font-black">सेवाएं</h1>
           <div className="xl:mt-7 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service, index) => (
               <TransitionLink href="/contact" key={index} passHref>

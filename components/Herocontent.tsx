@@ -28,7 +28,8 @@ const HeroContent: React.FC = () => {
                     </TransitionLink>
                 </div>
             </div>
-            <ParticlesBackground/>
+            <div className='opacity-[15%]'>            <ParticlesBackground/>
+            </div>
 
         </div>
     );

@@ -10,7 +10,7 @@ const ParticlesBackground: React.FC = () => {
   }, []);
 
   return (<div>
-    <Particles className=' md:opacity-[15%] sm:opacity-20'
+    <Particles className=' '
       id="tsparticles"
       init={particlesInit}
       options={{

@@ -22,7 +22,7 @@ export default function Gallery() {
           <Slideshow images={images} />
         </div>
       </div>
-      <ParticlesBackground/>
-    </>
+      <div className='md:opacity-[15%] sm:opacity-20'>            <ParticlesBackground/>
+      </div>    </>
   )
 }
