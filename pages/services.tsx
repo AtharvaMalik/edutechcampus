@@ -33,9 +33,9 @@ const services = [
   "सभी प्रकार की स्टेशनरी, फोटोकापी व अन्य सुविधाएं उपलब्ध हैं।"
 
 ];
-
+//jo
 const Services: NextPage = () => {
-  const [direction, setDirection] = useState<"up" | "down">("up");
+  const [direction] = useState<"up" | "down">("up");
   return (
     <>        
       <Head>
